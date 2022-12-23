@@ -17,11 +17,11 @@ We can see that there are a significantly higher number of reviews that are unpa
 
 ### Bias Analysis
 
-We first determined the percentage of 5 star reviews for both paid and unpaid reviews.
+We first determined the percentage of 5 star reviews for both paid and unpaid reviews based on a dataframe we created where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
 
 ![Percent](images/Percent.png)
 
-We can see from this graphic that the percentage of 5 star reviews for unpaid reviewers is significantly higher than that of the paid reviewers.
+We can see from this graphic that the percentage of 5 star reviews for paid reviewers is significantly higher than that of the unpaid reviewers.
 
 After running an analysis to determine the total number of Vine reviews verses Non-Vine reviews we get the below results.
 
@@ -31,4 +31,4 @@ After running an analysis to determine the total number of Vine reviews verses N
 
 ## Summary
 
-Based on the results of the data around 38% of the paid (Vine) users give five star reviews while around 56% of the unpaid (Non-Vine) users give five star reviews. This would lead us to determine that there is no signifficant bias in reviews for paid reviewers vs. unpaid. An additional alanysis we could perform would be to analyze the statistical distribution of the ratings for the Vine vs. Non-Vine reviewers.
+Based on the results of the data around 51% of the paid (Vine) users give five star reviews while around 38% of the unpaid (Non-Vine) users give five star reviews. This would lead us to conclude that there is some bias in reviews for paid reviewers vs. unpaid. An additional alanysis we could perform would be to analyze the statistical distribution of the ratings for the Vine vs. Non-Vine reviewers.
